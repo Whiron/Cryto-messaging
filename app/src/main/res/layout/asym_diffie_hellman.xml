@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/primenumber_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Prime Number :"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/primenumber_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/primenumber_label"
+            android:inputType="numberDecimal"
+            android:hint="Enter a Prime Number" />
+
+        <TextView
+            android:id="@+id/primitive_root_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/primenumber_input"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Primitive Root :"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/primitive_root_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/primitive_root_label"
+            android:hint="Primitive Root of Prime Number"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/value_x_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/primitive_root_input"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Value For X :"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/value_x_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/value_x_label"
+            android:hint="Enter Value for x less than Prime Number"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/value_y_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/value_x_input"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Value For Y :"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/value_y_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/value_y_label"
+            android:hint="Enter Value for y less than Prime Number"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/button_key"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/value_y_input"
+            android:layout_marginTop="5dp"
+            android:text="KEY" />
+
+
+        <TextView
+            android:id="@+id/output"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_key"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:text="Output :"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+    </RelativeLayout>
+</ScrollView>

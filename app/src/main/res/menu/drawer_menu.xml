@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_Symmetric"
+            android:title="Symmetric" />
+        <item
+            android:id="@+id/nav_Asymmetric"
+            android:title="Assymetric" />
+        <item
+            android:id="@+id/nav_Hashing"
+            android:title="Hashing" />
+        <item
+            android:id="@+id/nav_Digital_Signature"
+            android:title="Digital Signature" />
+        <item
+            android:id="@+id/nav_Other"
+            android:title="Other" />
+        <item
+            android:id="@+id/nav_Feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="Feedback" />
+    </group>
+
+    <item android:title="Extra">
+        <menu>
+            <item
+                android:id="@+id/nav_Social"
+                android:title="Social" />
+            <item
+                android:id="@+id/nav_Share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+        </menu>
+    </item>
+</menu>
